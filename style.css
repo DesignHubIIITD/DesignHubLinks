@@ -22,8 +22,8 @@ body{
 }
 
 #wrapper{
-    width: 350px;
-    height: 600px;
+    width: 300px;
+    height: 550px;
     margin: auto;
     border-radius: 20px;
     background-color: var(--bg);
@@ -59,7 +59,7 @@ h3{
 }
 
 ul{
-    width: 300px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -74,6 +74,9 @@ li{
     text-align: center;
     font-weight: 500;
     box-shadow: -6px -6px 6px 0px var(--lightShadow), 6px 6px 6px 0px var(--darkShadow);
+}
+.linksList:last-child{
+    margin-bottom: 20px;
 }
 .link:hover{
     box-shadow: inset -6px -6px 6px 0px var(--lightShadow), inset 6px 6px 6px 0px var(--darkShadow);
