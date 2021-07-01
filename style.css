@@ -88,6 +88,10 @@ a{
 a:link, a:visited, a:active, a:focus{
     color: #4f4f51;
 }
-/* a:visited{
-    color: #4f4f51;
-} */
+
+
+.when{
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: 400;
+}
