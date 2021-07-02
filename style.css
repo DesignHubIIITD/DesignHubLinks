@@ -95,3 +95,8 @@ a:link, a:visited, a:active, a:focus{
     font-size: 0.75em;
     font-weight: 400;
 }
+#button3:hover{
+    box-shadow: -6px -6px 6px 0px var(--lightShadow), 6px 6px 6px 0px var(--darkShadow);
+    transform: translateY(0);
+    cursor: default;
+}
